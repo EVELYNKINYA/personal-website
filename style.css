@@ -5,11 +5,11 @@ padding: 20px;
 }
 .navbar {
   background-color: #f8f4f4;
-  color:rgb(20, 105, 105);
+  color:RGB(20, 105, 105);
   align-items: center;
   justify-content: space-between;
   padding: 15px 0;
-  display:flex;
+  display: flex;
   flex-direction: column;
   width: 100%;
 }
@@ -19,7 +19,7 @@ nav a {
   margin-right: 50px; /* Increase the space between elements */
 }
 
-nav a:hover{
+nav a: hover{
   color:rgb(255, 0, 0);
 }
 
@@ -34,8 +34,17 @@ body{
 }
 
 .portflio{
-  background-color: cornflowerblue;
+  background-color: cornflowerblue
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
 }
+
 
 .about{
   background-color: yellowgreen;
