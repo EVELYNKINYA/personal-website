@@ -20,7 +20,7 @@
         <div class="home" id="home">
            <h1>Home</h1>
            <h2>Kinya Evelyn</h2>
-           <p>Software Development Student</p>
+           <h2>Software Development Student</h2>
         </div>
         <div class="about">
             <h1>About</h1>
@@ -60,6 +60,17 @@
             <footer>
                 <p>© 2023 Kinya Evelyn</p>
             </footer> 
+        </div>
+        <div>
+        <p id="date"></p>
+
+        <script>
+            var today = new Date();
+            var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+            var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            var dateTime = date+' '+time;
+            document.getElementById("date").innerHTML = dateTime;
+        </script>
         </div>
     </body>
 </html>
