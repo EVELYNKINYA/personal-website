@@ -35,7 +35,7 @@ body{
 
 .home{
   background-color: cornflowerblue
-  padding: 5px;
+  padding: 0px;
   margin: 80px;
   border: 1px solid #ccc;
   box-shadow: 0 0 10px #ccc;
@@ -60,6 +60,7 @@ background-color: #333;
         padding: 20px;
         text-align: center;
       }
+      
 #date {
   text-align: center;
 }
